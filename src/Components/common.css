@@ -1,0 +1,20 @@
+.main{
+    /* margin:10px; */
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+}
+.main h5{
+    text-align: center;
+}
+.main button{
+    text-align: center;;
+}
+a,span{
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+h1{
+    text-align: center;
+}
