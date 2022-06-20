@@ -1,8 +1,9 @@
 import React from "react";
 import { StudentItem } from "./StudentItem";
 import {Grid} from '@mui/material'
-
+import { useSelector } from "react-redux";
 export const ClassVIII=()=>{
+    const bulbStatus=useSelector(state=>state.gameReducer.bulb);
 
     const student=[
             { name:"Sujata Sinha",phy:7,skill:8},
@@ -16,8 +17,8 @@ export const ClassVIII=()=>{
 
     return(
         <div>
-            <h1>Team Warrior</h1>
-            <Grid container spacing={2}>
+            {bulbStatus && <h1>Team Warrior</h1>}               
+        <Grid container spacing={2}>
         {student.map((item)=>{
             return(
                 <Grid item xs={3}>
