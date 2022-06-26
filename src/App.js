@@ -10,6 +10,7 @@ import { FootballTeam } from './Components/FootballTeam';
 import { Hookey } from './Components/Hookey';
 import { Kabbadi } from './Components/Kabbadi';
 import { Coaches } from './Components/Coaches';
+import { Countries } from './CountriesAPI/Countries';
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
       <h1 style={{textAlign:"left"}}>Welcome to Redux Tutorial</h1>
       {/* <Provider store={localStore}> */}
       <BrowserRouter>
-      <NavBar/>
+      <Countries/>
+      {/* <NavBar/> */}
       <Routes>
         <Route path='/8th' element={<ClassVIII/>}/>
         <Route path='/9th' element={<ClassIX/>}/>

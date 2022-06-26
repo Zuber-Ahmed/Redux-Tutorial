@@ -1,4 +1,4 @@
-import { Grid, Card, CardContent, Button,Alert } from "@mui/material";
+import { Grid, Card, CardContent, Button} from "@mui/material";
 import React from "react";
 import { useDispatch,useSelector } from "react-redux/es/exports";
 
@@ -25,7 +25,6 @@ export const CoachItem = ({ item }) => {
             <Button
               variant="contained"
               color="error"
-            //   disabled={criTeam.some(p=>p.name===item.name)}
             >
               Assign
             </Button>

@@ -1,4 +1,4 @@
-import { Grid, Card, CardContent, Button,Alert } from "@mui/material";
+import { Grid, Card, CardContent, Button} from "@mui/material";
 import React from "react";
 import { useDispatch,useSelector } from "react-redux/es/exports";
 
@@ -55,7 +55,6 @@ export const StudentItem = ({ item }) => {
           <Grid item xs={6}>
             <h5>Skill:{item.skill}</h5>
           </Grid>
-          {/* <Grid item xs={2}></Grid> */}
           <Grid xs={3}>
             <Button
               variant="contained"

@@ -15,6 +15,18 @@ export const Coaches=()=>{
                 <CoachItem item={item} />
             )
         })}
+        <h2>Football Coaches</h2>
+        {fCoach.map((item)=>{
+            return(
+                <CoachItem item={item} />
+            )
+        })}
+        <h2>Kabbadi Coaches</h2>
+        {kCoach.map((item)=>{
+            return(
+                <CoachItem item={item} />
+            )
+        })}
         </div>
     )
 }
