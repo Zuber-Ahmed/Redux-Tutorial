@@ -14,10 +14,8 @@ export const StudentItem = ({ item }) => {
   const handleCricket = (curr) => {
       if(criTeam.length<11){
         dispatch({ type: "cricketTeam", payload: curr });
-      }
-     
+      }};
       
-  };
   const handleFootball = (curr) => {
     dispatch({ type: "footballTeam", payload: curr });
   };

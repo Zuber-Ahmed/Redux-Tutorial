@@ -21,6 +21,7 @@ export const ClassX=()=>{
             <Grid container spacing={2}>
         {student.map((item)=>{
             return(
+                
                 <Grid item xs={3}>
                     <StudentItem item={item}/>
                 </Grid>

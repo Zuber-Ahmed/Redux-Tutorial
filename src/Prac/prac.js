@@ -195,18 +195,21 @@
 // //  console.log(b)
 // var objnew='';
 
-//  for(var i=a.length-1; i>=0; i--){
-//  objnew=objnew+a[i]
-//     return objnew
-//  }
-//  console.log(objnew)
 
-
- function revs(a){
-    var newstr='';
-    for(var i=a.length-1;i>=0;i--){
-        newstr=newstr+a[i];
-    }
+let str='hello'
+var newstr="";
+ for(let i=str.length-1; i>=0; i--){  
+ newstr+=str[i]+1
     return newstr
- }
- console.log(revs("hello"));
+}
+console.log(newstr)
+
+
+//  function revs(a){
+//     var newstr='';
+//     for(var i=a.length-1;i>=0;i--){
+//         newstr=newstr+a[i];
+//     }
+//     return newstr
+//  }
+//  console.log(revs("hello"));

@@ -1,7 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux/es/exports";
 import { StudentItem } from "./StudentItem";
-import {Grid} from '@mui/material'
 
 
 export const CricketTeam=({item})=>{
@@ -11,12 +10,7 @@ export const CricketTeam=({item})=>{
             <h3>Selected Players List</h3>
             <ul>
         {cTeam.map((item)=>{
-             return(
-                <li>{item.name}</li>
-            
-                 )
-                 
-                }
+             return(<li>{item.name}</li>)}
                 )}
         </ul>
         </div>

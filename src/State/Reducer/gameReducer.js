@@ -6,6 +6,7 @@ export const gameReducer = (
     kabbadiTeam: [],
     bulb:false,
   },action) => {
+
     if(action.type==="bulb"){
         return{
             ...state,
@@ -13,7 +14,6 @@ export const gameReducer = (
         }
     }
     if(action.type==="cricketTeam"){
-      
         return{
             ...state,
             cricketTeam:[action.payload,...state.cricketTeam]
@@ -25,6 +25,7 @@ export const gameReducer = (
             footballTeam:[action.payload,...state.footballTeam]
         };
     };
+
     if(action.type==="hookeyTeam"){
         return{
             ...state,

@@ -3,8 +3,7 @@ export const coachReducer = (
       cricketCoaches: ["Saurabh Ganguly", "Anil Kumble", "Kapil Dev"],
       footballCoaches: ["Micheal", "Zidaan", "Ronaldo"],
       kabaddiCoaches: ["Amrinder Singh", "Surender Kumar"],
-    },
-    action
+    },action
   ) => {
     const { payload, type } = action;
     const { cricketCoaches, footballCoaches, kabaddiCoaches } = state;
